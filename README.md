@@ -25,7 +25,7 @@ Within the **Theme** tab you should be able to select the Flowey Theme.
 And there you go! Please note that this theme is optimized for the resolution **1920x1080**
 
 ## Customization
-To change the settings (default sprites, texts, sprite change rate ...) of the theme you can edit the **sprites.con.js** file.
+To change the settings (default sprites, texts, sprite change rate ...) of the theme you can edit the **sprites.conf.js** file.
 
 The following variables are defined:
 
