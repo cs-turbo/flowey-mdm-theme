@@ -25,7 +25,7 @@ Within the **Theme** tab you should be able to select the Flowey Theme.
 And there you go! Please note that this theme is optimized for the resolution **1920x1080**
 
 ## Customization
-To change the settings (default sprites, texts, sprite change rate ...) of the theme you can edit the **sprites.con.js** file.
+To change the settings (default sprites, texts, sprite change rate ...) of the theme you can edit the **sprites.conf.js** file.
 
 The following variables are defined:
 
@@ -41,14 +41,15 @@ The following variables are defined:
   - An Array containing JSON Objects that define the sprites used. The format for the JSON Object is the following:
 
 
+`name: The name of the jpg file (sprite) within the img folder prefixed with a #`
+
+`text: The text that will be displayed within the speech bubble when the sprite is showing`
+
+
     {
     name: "#flowey_wink"
     text: "lorem ipsum"
     }
-
-`name: The name of the jpg file (sprite) within the img folder prefixed with a #`
-
-`text: The text that will be displayed within the speech bubble when the sprite is showing`
 
 If you want to use png images instead just adjust the **imgExtension** variable wihtin **flowey.class.js**
 
@@ -56,4 +57,4 @@ If you want to use png images instead just adjust the **imgExtension** variable 
 ## Copyright
 Character image used with permission: Flowey from UNDERTALE (C) Toby Fox 2013 - 2016
 
-Other resources are [WTFPL](https://de.wikipedia.org/wiki/WTFPL) by cs-turbo ( Pascal Strohmeyer )
+Other files are based on [mdm-themes](https://github.com/linuxmint/mdm-themes) and GPL-3+ licensed. 
