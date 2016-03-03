@@ -41,15 +41,15 @@ The following variables are defined:
   - An Array containing JSON Objects that define the sprites used. The format for the JSON Object is the following:
 
 
+`name: The name of the jpg file (sprite) within the img folder prefixed with a #`
+
+`text: The text that will be displayed within the speech bubble when the sprite is showing`
+
 
     {
     name: "#flowey_wink"
     text: "lorem ipsum"
     }
-
-`name: The name of the jpg file (sprite) within the img folder prefixed with a #`
-
-`text: The text that will be displayed within the speech bubble when the sprite is showing`
 
 If you want to use png images instead just adjust the **imgExtension** variable wihtin **flowey.class.js**
 
