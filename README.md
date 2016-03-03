@@ -41,6 +41,7 @@ The following variables are defined:
   - An Array containing JSON Objects that define the sprites used. The format for the JSON Object is the following:
 
 
+
     {
     name: "#flowey_wink"
     text: "lorem ipsum"
