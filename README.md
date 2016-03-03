@@ -57,4 +57,4 @@ If you want to use png images instead just adjust the **imgExtension** variable 
 ## Copyright
 Character image used with permission: Flowey from UNDERTALE (C) Toby Fox 2013 - 2016
 
-Other resources are [WTFPL](https://de.wikipedia.org/wiki/WTFPL) by cs-turbo ( Pascal Strohmeyer )
+Other files are based on [mdm-themes](https://github.com/linuxmint/mdm-themes) and GPL-3+ licensed. 
