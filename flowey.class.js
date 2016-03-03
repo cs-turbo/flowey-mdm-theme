@@ -29,7 +29,7 @@ Flowey.prototype.init = function(JQuery){
       }
     }
 
-    var imgHtml = "<img id=\"" + imgId + "\" class=\""+ classNames +"\" height=\"500px\" width=\"500px\" src=\""+ imgSrc +"\" style=\"position:relative;bottom:200px\"/>";
+    var imgHtml = "<img id=\"" + imgId + "\" class=\""+ classNames +"\" height=\"500px\" width=\"500px\" src=\""+ imgSrc +"\"/>";
     $("#"+this.containerId).append(imgHtml);
   }
 };

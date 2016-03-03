@@ -19,3 +19,8 @@
 #selected_status, #selected_user_box, #sessions-title, #languages-title {
   color:white;
 }
+
+.flowey{
+  position:relative !important;
+  bottom:200px !important;
+}
