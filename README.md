@@ -1,6 +1,6 @@
 # Flowey-MDM-Theme
 
-This is a MDM **html5 theme** based on / inspired by the character **Flowey** from the game [Undertale](http://undertale.com/).
+This is a fan-made MDM **html5 theme** based on (inspired by) the character **Flowey** from the game [Undertale](http://undertale.com/).
 
 ![screenshot of the flowey theme](screenshot.jpg)
 
@@ -11,6 +11,11 @@ To use this theme you have to extract it to the following folder:
 `/usr/share/mdm/html-themes`
 
 You can easily achieve this by cloning the repository to the above folder.
+
+    cd /usr/share/mdm/html-themes
+    git clone https://github.com/cs-turbo/flowey-mdm-theme.git
+
+
 After extracting the repository to the above folder you can run the following command:
 
 `/usr/sbin/mdmsetup`
@@ -34,10 +39,12 @@ The following variables are defined:
 
 - **floweySpriteConfig**
   - An Array containing JSON Objects that define the sprites used. The format for the JSON Object is the following:
->{<br/>
->name: "#flowey_wink",<br/>
->text: "lorem ipsum"
-><br/>}
+
+
+    {
+    name: "#flowey_wink"
+    text: "lorem ipsum"
+    }
 
 `name: The name of the jpg file (sprite) within the img folder prefixed with a #`
 
