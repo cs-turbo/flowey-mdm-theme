@@ -1,0 +1,40 @@
+# Compiled source #
+############
+*.com
+*.class
+*.dll
+*.exe
+*.o
+*.so
+*.prefs
+# Packages #
+############
+*.7z
+*.dmg
+*.gz
+*.iso
+*.jar
+*.rar
+*.tar
+*.zip
+# Logs and databases #
+############
+*.log
+*.sql
+*.sqlite
+# Eclipse #
+############
+.buildpath
+.project
+.settings/
+# IntelliJ #
+############
+.idea
+# directories #
+############
+.git/
+.svn/
+.cvs/
+.vs/
+# GIMP #
+*.xcf

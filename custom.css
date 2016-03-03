@@ -1,0 +1,21 @@
+#login_box{
+  background-color:black;
+  border:5px solid white;
+}
+
+#speech_bubble{
+  position:absolute;
+  left:63%;
+  top:27%;
+}
+
+#clock{
+  position:absolute;
+  left:10px;
+  top:50px;
+  font-family:'Arial';
+}
+
+#selected_status, #selected_user_box, #sessions-title, #languages-title {
+  color:white;
+}
